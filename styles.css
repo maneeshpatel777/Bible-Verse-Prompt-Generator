@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif; /* Use a clean font */
+  line-height: 1.8; /* Increase line height for better readability */
+}
+
+h1 {
+  color: #2c3e50; /* Darker color for headings */
+  font-size: 2.5rem; /* Increase heading size */
+  margin-bottom: 20px; /* Space below headings */
+  text-align: center; /* Center the heading */
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background: #555;
+}
+
+#status {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+ol {
+  margin-left: 30px; /* Indent ordered lists */
+  padding: 15px; /* Add padding for better spacing */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1.2rem; /* Increase font size for list items */
+}
+
+li {
+  margin-bottom: 15px; /* Space between list items */
+}
+
+ul {
+  margin-left: 30px; /* Indent unordered lists */
+  font-size: 1.2rem; /* Increase font size for unordered list items */
+}
+
+img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ccc; /* Add a border to the image */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-top: 20px; /* Space above the image */
+}
